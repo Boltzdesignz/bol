@@ -1,0 +1,19 @@
+{
+  "name": "chatgpt-clone",
+  "version": "1.0.0",
+  "description": "This is a chatGPT clone application which is made using Node.JS, Express and HTML, CSS. At the Backend it basically uses an npm package called chatGPT which in their backend they are using webscrapping tool called pupeteer to actually login, fetch and provide the data by OPENAI CHATGPT. Thats pretty much how this app works..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chatgpt": "^3.3.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
